@@ -3,7 +3,6 @@ mSQL Class Readme
 
 Usage example
 
-/* Examples */
 #$sql = new SQL("localhost","root",'','test');
 
 // Insert and update data array
