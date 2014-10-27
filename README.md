@@ -1,5 +1,7 @@
 mSQL Class Usage
+----------------
 
+Start instantiation:
 $sql = new SQL("localhost","root",'','test');
 
 # Insert and update data array
@@ -16,6 +18,7 @@ echo $sql->delete("probaTabla","id='1'");
 $fieldArray = array('nev','szulEv','szulHely','anyjaNeve');
 
 $return = $sql->select("probaTabla",$fieldArray,"nev like 'Zsolt%'",'nev ASC',0);
+
 $return = $sql->selectOne("probaTabla",$fieldArray,"nev like 'Zsolt%'",'nev ASC');
 
 print_r($return);
