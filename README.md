@@ -1,5 +1,5 @@
-mSQL Class Usage
-----------------
+mSQL Class usage  / examples
+----------------------------
 
 // Start instantiation
 
