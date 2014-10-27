@@ -1,7 +1,8 @@
 mSQL Class Usage
 ----------------
 
-Start instantiation:
+// Start instantiation
+
 $sql = new SQL("localhost","root",'','test');
 
 # Insert and update data array
