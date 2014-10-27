@@ -3,7 +3,7 @@ mSQL Class Usage
 
 // Start instantiation
 
-$sql = new SQL("localhost","root",'','test');
+$sql = new SQL("servername","username",'password','databasename');
 
 # Insert and update data array
 $iData = array('nev'=>'Böszörményi Imre Zsolt','szulEv'=>'1969.04.08','szulHely'=>'Gyula','anyjaNeve'=>'Seres Ilona');
