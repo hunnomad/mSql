@@ -9,6 +9,7 @@ $sql = new SQL("servername","username",'password','databasename');
 $iData = array('nev'=>'Böszörményi Imre Zsolt','szulEv'=>'1969.04.08','szulHely'=>'Gyula','anyjaNeve'=>'Seres Ilona');
 
 echo $sql->insert('probaTabla',$iData);
+
 echo $sql->update("probaTabla",$iData,"id='1'");
 
 # Delete record
