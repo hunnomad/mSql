@@ -23,4 +23,3 @@ $return = $sql->select("probaTabla",$fieldArray,"nev like 'Zsolt%'",'nev ASC',0)
 $return = $sql->selectOne("probaTabla",$fieldArray,"nev like 'Zsolt%'",'nev ASC');
 
 print_r($return);
-
